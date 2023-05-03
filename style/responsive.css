@@ -1,0 +1,595 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #FFA31A;
+    --heading: 'Maven Pro', sans-serif;
+    --font-color : #FFFFFF;
+
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    .content-heading {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .our-services-con  .services .service img {
+        width: 95%;
+        height: 300px;
+        background-size: contain;
+    }
+
+    .subheading {
+        font-size: 25px;
+    }
+    
+    .parag-content {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .our-services-con .services .service {
+        padding: 35px 15px; 
+    }
+}
+
+
+
+
+
+/*TABLET SIZE*/
+@media only screen and (max-width: 900px) {
+    header {
+        
+        padding: 5px 30px 5px 30px;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: sticky;
+    }
+
+    .hamburger .line {
+        margin-bottom: 6px;
+        width: 30px;
+        height: 3px;
+        background-color: var(--secondary-color);
+    }
+
+    .navbar {
+        align-items: flex-start;
+        height: 0;
+        position: absolute;
+        top: 110px;
+        background-color: var(--tertiary-color);
+        width: 100vw;
+        left: 0;
+        right: 0;
+        transition: 0.7s;
+        overflow: hidden;
+        z-index: 999;
+    }
+    
+    .navbar ul {
+        display: block;
+        width: fit-content;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        transition: 0.2s;
+        height: 100%;
+        opacity: 0;
+    }
+
+    .navbar ul li {
+        margin-top: 20px;
+        color: red;
+    }
+
+    .navbar ul li a:hover {
+        color: var(--primary-color);
+    }
+
+    .navbar.active {
+        height: 300px;
+    }
+
+    .navbar.active ul {
+        opacity: 1;
+    }
+
+    .welcome-section-con {
+        padding: 50px;
+        display: flex;
+       
+    }
+
+    .welcome-img-con {
+        width: 100%;
+        height: 650px;
+        opacity: 0.2;
+    }
+    
+    .welcome-content-con {
+        position: absolute;
+        width:85%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        z-index: 1;
+        row-gap: 10px;
+        right: 0;
+        left: 0;
+        top: 280px;
+        margin: auto;
+
+    }
+
+    .welcome-content-con .welcome-heading  {
+        font-size: 40px;
+    }
+
+    .welcome-content-con .parag-content {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .btn {
+        background-color: var(--tertiary-color);
+        width: 225px;
+        height: 45px;
+        font-size: 14px; 
+    }
+
+    .about-section-con {
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .about-video-con {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .about-section-content-con {
+        width: 100%;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+     .content-heading {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .about-section-content-con .parag-content {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .our-services-con {
+        padding: 50px;
+    }
+    
+    .our-services-con .services {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+   
+    .our-services-con  .services .service {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .our-services-con .services .service img {
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .desc-con {
+        width: 59%;
+    }
+
+    .parag-content {
+        font-size: 18px;
+    }
+    
+    .our-artist-con {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .our-artist-con .artist-details-con {
+        width: 100%;
+    }
+
+    .our-artist-con .artist-details-con .content-heading {
+        font-size: 35px;
+    }
+
+    .our-artist-con .artist-details-con .parag-content {
+        font-size: 22px;
+        text-align: center;
+    }
+    .our-artist-con .slideshow-container {
+        width: 80%;
+        margin-top: 35px;
+    }
+
+    .testimonial-con {
+        padding: 50px;
+    }
+
+    .testimonial-con .cont div p {
+        font-weight: 400;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .testimonial-con .arrow.right {
+        right: 50px;
+    }
+
+    .tattoo-gallery-con {
+        padding: 50px;
+    }
+
+    .tattoo-gallery-con .lightBox_content {
+        width: 625px;
+    }
+
+    .location-details-con {
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .store-details-con {
+        height: auto;
+        width: auto;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20px;
+        row-gap: 20px;   
+        border-radius: 10px 10px 0 0;
+    }
+
+    .store-details {
+        padding: 10px;
+    }
+    
+    .map-con {
+        width: 100%;
+        height: 500px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .map-con iframe {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .email-us-form-con {
+        padding: 50px;
+        row-gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-us-details-con {
+        width: 100%;
+    }
+
+    .email-us-details-con .email-us-tagline {
+        font-size: 40px;
+    }
+
+    .email-us-form {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px;
+        column-gap: 20px;
+    }
+
+    .footer .logo {
+        width: 120px;
+        height: 70px;
+        column-gap: 10px;
+    }
+
+    .footer .icons {
+        width: auto;
+        column-gap: 10px;
+    }
+
+    .footer .icons i {
+        font-size: 20px;
+    }
+    
+    #topBtn{
+        position: fixed;
+        bottom: 40px;
+        right: 28px;
+        height: 45px;
+        width: 45px;
+        font-size: 16px;
+      }
+    
+}
+
+/*MOBILE SIZE*/
+@media only screen and (max-width:600px) {
+    .welcome-section-con {
+        padding: 25px 15px 25px 15px;
+    }
+/* 
+    .welcome-content-con {
+        position: absolute;
+        top: 200px;
+    } */
+    .welcome-content-con .welcome-heading {
+        font-size: 28px;
+    }
+
+    .btn {
+        margin-top: 0;
+    }
+
+    .about-section-con {
+        padding: 25px 15px;
+        flex-direction: column;
+    }
+
+    .about-video-con {
+        width: 100%;
+        height: 400px;
+    }
+
+    .about-section-content-con {
+        width: 100%;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+     .content-heading {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 0;
+        
+    }
+
+    .about-section-content-con .parag-content {
+        text-align: center;
+        margin: 20px 0px;
+        font-size: 14px;
+    }
+
+    .our-services-con {
+        padding: 25px 15px;
+    }
+
+    
+    .our-services-con .services .service {
+        flex-direction: column;
+    }
+
+    .our-services-con .services .service img {
+        width: 100%;
+        height: 250px;
+        margin-right: 0;
+    }
+
+    .desc-con {
+        width: 100%;
+    }
+    
+
+    .our-services-con .services .service .parag-content {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .subheading {
+        text-align: center;
+    }
+
+    .our-artist-con {
+        padding: 25px 15px 25px 15px; 
+    }
+
+    .our-artist-con .artist-details-con .content-heading {
+        font-size: 30px;
+    }
+
+    .our-artist-con .artist-details-con .parag-content {
+        font-size: 14px;
+        text-align: center;
+    }
+    .our-artist-con .slideshow-container {
+        width: 80%;
+        margin-top: 35px;
+    }
+
+    .artist-desc .artist-name {
+        font-size: 25px;
+    }
+
+    .our-artist-con .slideshow-container {
+        width: 90%;
+        margin-top: 35px;
+    }
+
+    .slideshow-container img {
+        height: 400px;
+    }
+
+    .testimonial-con {
+        padding: 50px 15px;
+    }
+
+    .testimonial-con .cont div p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .testimonial-con .cont div h2 {
+        font-size: 25px;
+    }
+    .testimonial-con .arrow.right {
+        right: 5px;
+    }
+
+    .testimonial-con .arrow.arrow.left {
+        left: 5px;
+    }
+
+    .testimonial-con .wrap {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .testimonial-con .quote-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .testimonial-con .dots .dot {
+        margin: 30px 5px 0px 0px;
+    }
+
+    .tattoo-gallery-con {
+        padding: 50px 15px;
+    }
+
+    .tattoo-gallery-con .lightBox_content {
+        width: 300px;
+    }
+     .parag-content{
+        font-size: 14px;
+    }
+
+    .location-details-con {
+        padding: 25px 15px 25px 15px;
+        flex-direction: column;
+    }
+
+    .store-details-con {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;   
+        border-radius: 10px 10px 0 0;
+        padding: 0px;
+        border-radius: 18px;
+        margin-bottom: 70px;
+    }
+
+    .store-details {
+        padding: 30px;
+    }
+
+    
+
+    .map-con {
+        height: 350px;
+    }
+
+    .email-us-form-con {
+        padding: 25px 15px 25px 15px;
+    }
+    
+    .email-us-details-con .email-us-tagline {
+        font-size: 35px;
+    }
+
+    .email-us-details-con .email-us-content {
+        font-size: 14px;
+    }
+
+    #submit {
+        padding: 15px;
+    }
+
+    .footer {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .footer .logo {
+        width: 100%;
+    }
+    .footer .icons {
+        width: auto;
+        column-gap: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 1373px) and (min-width: 902px) {
+    .welcome-content-con .welcome-heading {
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .welcome-content-con .parag-content {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .welcome-img-con {
+        width: 45%;
+        height: 550px;
+    }
+
+    .welcome-content-con {
+        width: 50%;
+    }
+
+    .btn {
+        background-color: var(--tertiary-color);
+        width: 225px;
+        height: 65px;
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 1034px) {
+    .lightBox_content .close{
+      top: -40px;
+      left: 10px;
+    }
+  }
+  @media (max-width: 1002px) {
+    .image-gallery .image-container{
+      columns: 2;
+    }
+  }
+  @media (max-width: 602px) {
+    .image-gallery .image-container{
+      columns: 1;
+    }
+    }
+  @media (max-width: 602px) {
+    .image-gallery header{
+      font-size: 25px;
+    }
+  }
+
