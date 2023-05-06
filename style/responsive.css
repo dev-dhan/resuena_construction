@@ -4,6 +4,9 @@
     --tertiary-color: #FFA31A;
     --heading: 'Maven Pro', sans-serif;
     --font-color : #FFFFFF;
+    --primary-colorV2: #a6070a;
+    --secondary-colorV2: #4857a3;
+    --tertiary-colorV2: #000000;
 
 }
 
@@ -12,6 +15,18 @@
 @media only screen and (max-width: 1400px) {
     .content-heading {
         font-size: 45px;
+    }
+
+    .slideshow-container img {
+        height: 350px;
+    }
+
+    .artist-desc .artist-name {
+        font-size: 20px;
+    }
+
+    .artist-desc .artist-job-title {
+        font-size: 16px;
     }
 }
 
@@ -139,7 +154,7 @@
     }
 
     .btn {
-        background-color: var(--tertiary-color);
+        background-color: var(--secondary-colorV2);
         width: 225px;
         height: 45px;
         font-size: 14px; 
@@ -227,6 +242,15 @@
     .our-artist-con .slideshow-container {
         width: 80%;
         margin-top: 35px;
+    }
+
+    .our-artist-con .slideshow-container {
+        width: auto;
+        margin-top: 35px;
+    }
+
+    .slideshow-container img {
+        height: auto;
     }
 
     .testimonial-con {
@@ -319,6 +343,8 @@
     .footer .icons i {
         font-size: 20px;
     }
+
+    
     
     #topBtn{
         position: fixed;
@@ -429,12 +455,12 @@
     }
 
     .our-artist-con .slideshow-container {
-        width: 90%;
+        width: auto;
         margin-top: 35px;
     }
 
     .slideshow-container img {
-        height: 400px;
+        height: auto;
     }
 
     .testimonial-con {
@@ -565,7 +591,7 @@
     }
 
     .btn {
-        background-color: var(--tertiary-color);
+        background-color: var(--secondary-colorV2);
         width: 225px;
         height: 65px;
         font-size: 18px; 

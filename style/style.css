@@ -22,8 +22,8 @@ html,body{
 
 
 header {
-    background-color: var(--tertiary-colorV2);
-    padding: 10px 64px 10px 64px;
+    background-color: var(--primary-colorV2);
+    padding: 15px 64px 15px 64px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,11 +54,17 @@ header {
    margin-left: 5px;
 }
 
+.fa-store {
+    font-size: 30px;
+}
+
+
+
 .navbar {
     display: flex;
     align-items: center;
     column-gap: 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navbar ul {
@@ -77,7 +83,7 @@ header {
 }
 
 .navbar ul li a:hover {
-    color: var(--primary-colorV2);
+    color: var(--tertiary-colorV2);
 }
 
 .store-btn{
@@ -93,8 +99,8 @@ header {
     font-size: 16px;
     width: 50px;
     height: 50px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
+    background: #312828;
+    color: var(--font-color);
     border: none;
     cursor: pointer;
     display: none;
@@ -105,7 +111,7 @@ header {
 /*Welcome CSS*/
 .welcome-section-con {
     padding: 64px;
-    background-color: var(--tertiary-colorV2);
+    background-color: var(--font-color);
     display: flex;
     justify-content: space-between;
 }
@@ -113,7 +119,7 @@ header {
 .welcome-content-con {
     width: 55%;
     font-family: var(--heading);
-    color: var(--font-color);
+    color: var(--secondary-colorV2);
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -137,6 +143,7 @@ header {
     margin-bottom: 20px;
     font-weight: 400;
     text-align: justify;
+    color: #000000;
 }
 .welcome-img-con {
     background-image: url("../images/welcome-img.jpg");
@@ -165,7 +172,7 @@ header {
 
 .about-section-con {
     padding: 64px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-colorV2);
     display: flex;
     font-family: var(--heading);
 }
@@ -192,7 +199,7 @@ header {
 
 .content-heading {
     font-size: 64px;
-    color: var(--secondary-colorV2);
+    color: var(--tertiary-colorV2);
 }
 
 .parag-content {
@@ -212,7 +219,7 @@ header {
 /*Our Services CSS*/
 .our-services-con {
     padding: 64px;
-    background-color: var(--tertiary-colorV2) ;
+    background-color: var(--font-color) ;
     font-family: var(--heading);
 }
 
@@ -271,7 +278,7 @@ header {
 /*Our Artist CSS*/
 .our-artist-con {
     padding: 64px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-colorV2);
     display: flex;
     font-family: var(--heading);
     align-items: center;
@@ -366,7 +373,7 @@ header {
 /*Testimonial CSS**/
 
 .testimonial-con{
-    background-color: var(--tertiary-colorV2); 
+    background-color: var(--font-color); 
     font-family: var(--heading);
     padding: 64px;
 }
@@ -374,6 +381,7 @@ header {
 .testimonial-con .content-heading {
     font-size: 35px;
     text-align: center;
+    color: var(--secondary-colorV2);
 }
 .testimonial-con .img-con {
     display: flex;
@@ -397,7 +405,7 @@ header {
 .testimonial-con .arrow{
     display: block;
     position: absolute;
-    color: #eee;
+    color: #000000;
     cursor: pointer;
     font-size: 2em;
     top: 50%;
@@ -434,7 +442,7 @@ header {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 1px solid #eee;
+    border: 1px solid var(--tertiary-colorV2);
     margin: 50px 10px;
     cursor: pointer;
     transition: all .5s ease-in-out;
@@ -487,7 +495,7 @@ border-color: var(--primary-colorV2);
 }
 .testimonial-con .cont div p{
     font-size: 22px;
-    color: var(--font-color);
+    color: var(--secondary-colorV2);
     width: 82%;
     margin: auto;
     font-weight: 600;
@@ -578,7 +586,7 @@ border-color: var(--primary-colorV2);
 .tattoo-gallery-con{
     position: relative;
     padding: 64px; 
-    background-color: var(--primary-color);
+    background-color: var(--font-color);
     font-family: var(--heading);
   }
 .tattoo-gallery-con .lightBox{
@@ -605,7 +613,7 @@ border-color: var(--primary-colorV2);
   }
 
  .image-gallery .content-heading{
-    background-color: var(--primary-color);
+    color: var(--secondary-colorV2);    
     padding-bottom: 30px;
     text-align: center;
     font-size: 35px;
@@ -717,7 +725,7 @@ border-color: var(--primary-colorV2);
   }
 .image-gallery .image-container{
     columns: 3;
-    background-color: var(--primary-color);
+    background-color: var(--font-color);
     column-gap: 0;
   }
 .image-container img{
@@ -781,7 +789,7 @@ border-color: var(--primary-colorV2);
   .project-details-con {
     text-align: center;
     font-size: 16px;
-    color: var(--font-color);
+    color: var(--tertiary-colorV2);
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -807,7 +815,7 @@ border-color: var(--primary-colorV2);
   
 
   .project-cost {
-    color: var(--font-color);
+    color: var(--secondary-colorV2);
     text-align: center;
   }
 
@@ -824,7 +832,7 @@ justify-content: center;
 
 .location-details-con {
     padding: 64px;
-    background-color: var(--tertiary-colorV2); 
+    background-color: var(--secondary-colorV2); 
     display: flex;
     font-family: var(--heading);
     
@@ -869,7 +877,7 @@ justify-content: center;
 /*email us CSS*/
 .email-us-form-con {
     padding: 64px;
-    background-color: var(--tertiary-colorV2);
+    background-color: var(--font-color);
     display: flex;
     font-family: var(--heading);
     color: var(--font-color);
@@ -891,11 +899,12 @@ justify-content: center;
 
 .email-us-details-con .email-us-content {
     font-size: 22px;
+    color: var(--tertiary-colorV2);
 }
 
 .email-us-form {
     width: 55%;
-    background-color: var(--tertiary-colorV2);
+
 }
 
 .email-us-form form{
@@ -913,9 +922,9 @@ justify-content: center;
     border: 2px solid var(--secondary-color);
     border-radius: 18px;
     background-color: transparent;
-    color: var(--primary-colorV2);
+    color: var(--tertiary-colorV2);
     font-size: 18px;
-    background-color: #FFFFFF;
+    background-color: #eeb8b8;
 }
 
 .email-us-form form #email {
@@ -925,10 +934,9 @@ justify-content: center;
     border: 2px solid var(--secondary-color);
     border-radius: 18px;
     background-color: transparent;
-    color: var(--primary-colorV2);
+    color: var(--tertiary-colorV2);
     font-size: 18px;
-    background-color: #FFFFFF;
-    
+    background-color: #eeb8b8;    
 }
 
 .email-us-form form #message {
@@ -938,13 +946,13 @@ justify-content: center;
     border: 2px solid var(--secondary-color);
     border-radius: 18px;
     background-color: transparent;
-    color: var(--primary-colorV2);
+    color: var(--tertiary-colorV2);
     font-size: 18px;
-    background-color: #FFFFFF;
+    background-color: #eeb8b8;    
 }
 
 #submit {
-    background-color: var(--secondary-colorV2);
+    background-color: var(--primary-colorV2);
     color: var(--font-color);
     border: none;
     border-radius: 8px;
@@ -957,7 +965,7 @@ justify-content: center;
 }
 
 #submit:hover {
-    background-color:#6b7bca;
+    background-color:#bb282a;
     transition: ease-in .5s;
 }
 
@@ -971,6 +979,8 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     column-gap: 100px;
+    text-align: center;
+
 }
 
 .footer .logo {
@@ -978,8 +988,16 @@ justify-content: center;
     height: 100px;
 }
 
-.footer .logo{
-    background-color: #FFFFFF;
+.footer .logo-link p {
+    color: var(--font-color);
+    font-size: 20px;
+}
+
+.copyright a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--font-color);
+    text-align: center;
 }
 
 .footer p {
@@ -987,8 +1005,12 @@ justify-content: center;
 }
 .footer .icons {
     display: flex;
-    width: 10%;
+    width: auto;
     justify-content: space-between;
+}
+
+.footer .icons i{
+    margin-right: 10px;
 }
 
 .footer .icons i{
