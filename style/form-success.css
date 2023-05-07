@@ -1,0 +1,23 @@
+#success-message-content {
+    justify-content: space-between;
+    flex: 1;
+    display: flex;
+}
+
+#x-btn {
+    cursor: pointer;
+}
+
+#success-message {
+    background-color: #dcffbc;
+    color: #005d00;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+/* navigation fixed */
+header {
+    display: flex !important;
+}
